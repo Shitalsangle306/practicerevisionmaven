@@ -12,7 +12,8 @@ public class Myntra {
 	  
 	  WebDriver driver = new ChromeDriver();
 	  Reporter.log("myntra opening",true);
-	  driver.get("https://www.myntra.com/");
+	  //driver.get("https://www.myntra.com/");
+	  driver.get("https://www.snapdeal.com/");
 	  Thread.sleep(7000);
 	  driver.close();
   }
