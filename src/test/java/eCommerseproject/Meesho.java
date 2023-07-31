@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class Meesho {
   @Test
-  public void meeshotest() throws InterruptedException
+  public void EC_123_meeshotest() throws InterruptedException
   {
 	  
 	  WebDriver driver = new ChromeDriver();
